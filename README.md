@@ -12,45 +12,17 @@
 
 ## Example
 
-```
-'use strict';
+You can see [here](https://github.com/HsuTing/mdl-form-example/tree/gh-pages).
 
-import $ from 'jquery';
-import React from 'react';
-import ReactDOM from 'react-dom';
+- [code](https://github.com/HsuTing/mdl-form-example/blob/gh-pages/src/index.jsx)
+- [website](http://hsuting.github.io/mdl-form-example/)
 
-import Form from 'mdl-form';
-import Input from 'mdl-form-input';
+## List
 
-let Data = {
-  'title': {
-    'label': 'Title'
-  },  
-  'submit': {
-    'label': 'Submit',
-    'url': '/api/',
-    'success': (data) => {
-      console.log(data);
-      alert('Success');
-    },  
-    'fail': (data) => {
-      console.log(data);
-      alert('Fail');
-    }   
-  },  
-  'form': [
-    {   
-      'id': 'component_id',
-      'label': 'Component'
-    }
-  ]
-};
-
-(() => {
-  let Tags = { input: Input };
-  ReactDOM.render(<Form data={Data} tags={Tags}/>, document.getElementById('form'));
-})();
-```
+- [mdl-form-input](https://github.com/HsuTing/mdl-form-input)
+- [mdl-form-radio](https://github.com/HsuTing/mdl-form-radio)
+- [mdl-form-textarea](https://github.com/HsuTing/mdl-form-textarea)
+- [mdl-form-file](https://github.com/HsuTing/mdl-form-file)
 
 ## Render
 
