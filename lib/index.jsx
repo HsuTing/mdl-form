@@ -72,11 +72,11 @@ export default class form extends React.Component {
 
     let tags = this.props.tags;
     if(tags == undefined) {
-      throw new Error("You need to give an array of 'Tag'.");
+      throw new Error("You need to give an object of 'Tag'.");
     }
 
     let form = this.state.data.form == undefined ? [] : this.state.data.form;
-    let defaultTag = this.props.defaultTag == undefined ? tags[0] : defaultTag;
+    let defaultTag = tags["default"] == undefined ? tags[Object.keys(tags)[0]] : tags["default"];
 
     return (
       <div ref="form">

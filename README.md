@@ -27,7 +27,7 @@ let Data = {
     'label': 'Title'
   },  
   'submit': {
-    'label': 'Submit'
+    'label': 'Submit',
     'url': '/api/',
     'success': (data) => {
       console.log(data);
@@ -47,7 +47,7 @@ let Data = {
 };
 
 (() => {
-  let Tags = [ Input ];
+  let Tags = { input: Input };
   ReactDOM.render(<Form data={Data} tags={Tags}/>, document.getElementById('form'));
 })();
 ```
@@ -55,7 +55,10 @@ let Data = {
 ## Render
 
 - Give a `json` to `data`. The parameter is at [here](https://github.com/HsuTing/mdl-form#parameter).
-- Give an array of components to `tags`.
+- Give an object of components to `tags`.
+  * `key` is also used in `tags` of `form`.
+  * `value` is component.
+  * If you do not set a default component, `form` will set first component to default component.
 - Other you can use:
   * noAnimation -> if you use `noAnimation={true}`, this component will not render with animation.
 
@@ -79,7 +82,7 @@ let Data = {
 
 ### Form
 
-- This is an array for your componets in `Form`.
+- This is an object for your componets in `Form`.
 - `id` is needed.
 - isNotRequire -> if you use `isNotRequire: true`, this component can be empty to post to server. 
 
