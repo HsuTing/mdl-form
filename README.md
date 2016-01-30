@@ -29,10 +29,12 @@ let Data = {
   'submit': {
     'label': 'Submit'
     'url': '/api/',
-    'success': () => {
+    'success': (data) => {
+      console.log(data);
       alert('Success');
     },  
-    'fail': (output) => {
+    'fail': (data) => {
+      console.log(data);
       alert('Fail');
     }   
   },  
