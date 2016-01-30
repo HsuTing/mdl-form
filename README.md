@@ -52,7 +52,7 @@ let Data = {
 
 ## Render
 
-- Give a `json` to `data`. The parameter which you can use in `json` at [here](https://github.com/HsuTing/mdl-form#form-for-material-design-lite#Parameter).
+- Give a `json` to `data`. The parameter which you can use in `json` at [here](https://github.com/HsuTing/mdl-form#parameter).
 - Give an array of components to `tags`.
 - Other you can use:
   * noAnimation -> if you use `noAnimation={true}`, This component will not render with animation.
