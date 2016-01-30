@@ -11,7 +11,7 @@ export default class title extends React.Component {
     }
     else {
       return (
-        <h2 style={data.style}>{data.label}</h2>
+        <h3 style={data.style}>{data.label}</h3>
       );
     }
   }
