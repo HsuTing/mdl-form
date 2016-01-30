@@ -60,7 +60,7 @@ You can see [here](https://github.com/HsuTing/mdl-form-example/tree/gh-pages).
 
 ## How to write component
 
-- You can see [mdl-form-input](https://github.com/HsuTing/mdl-form-input/blob/master/index.jsx).
+- You can see [list](https://github.com/HsuTing/mdl-form#list).
 - Props have three function and one data
   * keyDown(function) -> this will call a click on `submit`.
   * getData(function) -> give data to `form`.
