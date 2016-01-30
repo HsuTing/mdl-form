@@ -52,10 +52,10 @@ let Data = {
 
 ## Render
 
-- Give a `json` to `data`. The parameter which you can use in `json` at [here](https://github.com/HsuTing/mdl-form#parameter).
+- Give a `json` to `data`. The parameter is at [here](https://github.com/HsuTing/mdl-form#parameter).
 - Give an array of components to `tags`.
 - Other you can use:
-  * noAnimation -> if you use `noAnimation={true}`, This component will not render with animation.
+  * noAnimation -> if you use `noAnimation={true}`, this component will not render with animation.
 
 ## Parameter
 
@@ -71,16 +71,15 @@ let Data = {
 - url
 - click(function)
 - success(function)
-  * 1st argument -> get from `url`.
+  * 1st argument -> get data from server.
 - fail(function)
-  * 1st argument -> data which you post.
+  * 1st argument -> data which you post to server.
 
 ### Form
 
 - This is an array for your componets in `Form`.
-- id(needed)
-- isNotRequire
-  * This component can be empty.
+- `id` is needed.
+- isNotRequire -> if you use `isNotRequire: true`, this component can be empty to post to server. 
 
 ## How to write component
 
