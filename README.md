@@ -3,6 +3,11 @@
 ## Start
 
 - [Node.js](https://nodejs.org/en/) must be installed.
+- Install package:
+```
+  npm install jquery react react-dom
+```
+
 - This proeject use `ECMAScript (ES6)` and `react`.
   Therefore, [babel-loader](https://github.com/babel/babel-loader), [webpack](https://github.com/webpack/webpack) is recommended. 
 - Recommend:
