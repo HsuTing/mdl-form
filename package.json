@@ -1,6 +1,6 @@
 {
   "name": "mdl-form",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Form for Material Design Lite",
   "main": "./lib/index.js",
   "scripts": {
