@@ -11,7 +11,7 @@ export default class title extends React.Component {
     }
     else {
       return (
-        <h3 style={data.style}>{data.label}</h3>
+        <h3 className={data.className === undefined ? "" : data.className} style={data.style}>{data.label}</h3>
       );
     }
   }

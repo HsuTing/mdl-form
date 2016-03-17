@@ -5,14 +5,7 @@
 - [Node.js](https://nodejs.org/en/) must be installed.
 - Install package:
 ```
-  npm install jquery react react-dom
-```
-
-- This proeject use `ECMAScript (ES6)` and `react`.
-  Therefore, [babel-loader](https://github.com/babel/babel-loader), [webpack](https://github.com/webpack/webpack) is recommended. 
-- Recommend:
-```
-  npm install babel-core babel-loader babel-preset-es2015 babel-preset-react css-loader style-loader webpack
+  npm install mdl-form jquery react 
 ```
 
 ## Example

@@ -3,9 +3,6 @@
 import $ from 'jquery';
 import React from 'react';
 
-import AnimationShow from './animation/show';
-import AnimationHide from './animation/hide';
-
 import Title from './component/title';
 import Submit from './component/submit';
 

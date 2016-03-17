@@ -11,7 +11,7 @@ export default class submit extends React.Component {
     }
     else {
       return (
-        <a className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" 
+        <a className={data.className === undefined ? "mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" : data.className}
           style={data.style}
           onClick={this._click.bind(this, data)}
         >{data.label}</a>
