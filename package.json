@@ -2,7 +2,7 @@
   "name": "mdl-form",
   "version": "1.0.5",
   "description": "Form for Material Design Lite",
-  "main": "./lib/index.jsx",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf ./lib && babel --presets es2015,react -w --stage 0 src --out-dir lib"
