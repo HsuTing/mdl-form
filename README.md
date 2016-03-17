@@ -29,8 +29,13 @@ You can see [here](https://github.com/HsuTing/mdl-form-example/tree/gh-pages).
   * `key` is also used in `tags` of `form`.
   * `value` is component.
   * If you do not set a default component, `form` will set first component to default component.
-- Other you can use:
-  * noAnimation -> if you use `noAnimation={true}`, this component will not render with animation.
+
+## Animation
+
+- You can add an animation at render.
+- `form-hide-animation` will hide form and rerender new form. `form-hide` will be added finally.
+- `form-show-animation` will show form after form is updated. `form-show` will be added finally.
+- noAnimation -> if you use `noAnimation={true}`, this form will not render with animation.
 
 ## Parameter
 
