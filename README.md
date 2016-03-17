@@ -42,11 +42,13 @@ You can see [here](https://github.com/HsuTing/mdl-form-example/tree/gh-pages).
 ### Title
 
 - label
+- className
 - style
 
 ### Submit
 
 - label
+- className
 - style
 - url
 - click(function)
